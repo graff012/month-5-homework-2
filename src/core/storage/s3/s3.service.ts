@@ -5,7 +5,7 @@ import { v4 as uuid } from 'uuid';
 
 @Injectable()
 export class S3Service extends S3Client {
-  private bucketName: string;
+  public bucketName: string;
   private s3Region: string;
   constructor(private readonly configService: ConfigService) {
     super();

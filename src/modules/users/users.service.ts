@@ -36,6 +36,6 @@ export class UsersService {
       },
     });
 
-    return this.updatedUser;
+    return updatedUser;
   }
 }
